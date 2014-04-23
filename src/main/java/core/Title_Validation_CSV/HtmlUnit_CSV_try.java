@@ -12,7 +12,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 public class HtmlUnit_CSV_try {
 	public static void main(String[] args) {
 
-		String csvFile = "./src/main/resources/Test.csv";
+		String csvFile = "../src/main/resources/Test.csv";
 		BufferedReader br = null;
 		String line = null;
 		String cvsSplitBy = ",";
